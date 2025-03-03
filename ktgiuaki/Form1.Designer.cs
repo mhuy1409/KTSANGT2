@@ -37,9 +37,9 @@
             this.UserName.AutoSize = true;
             this.UserName.Location = new System.Drawing.Point(113, 54);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(37, 16);
+            this.UserName.Size = new System.Drawing.Size(73, 16);
             this.UserName.TabIndex = 0;
-            this.UserName.Text = "lable";
+            this.UserName.Text = "UserName";
             // 
             // txtUserName
             // 
