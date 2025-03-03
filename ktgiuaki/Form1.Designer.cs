@@ -30,56 +30,65 @@
         {
             this.UserName = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txtmatkhau = new System.Windows.Forms.Label();
+            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.Label();
+            this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UserName
             // 
             this.UserName.AutoSize = true;
-            this.UserName.Location = new System.Drawing.Point(85, 44);
-            this.UserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.UserName.Location = new System.Drawing.Point(113, 54);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(57, 13);
+            this.UserName.Size = new System.Drawing.Size(73, 16);
             this.UserName.TabIndex = 0;
             this.UserName.Text = "UserName";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(145, 39);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUserName.Location = new System.Drawing.Point(193, 48);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(76, 20);
+            this.txtUserName.Size = new System.Drawing.Size(100, 22);
             this.txtUserName.TabIndex = 1;
             // 
-            // textBox1
+            // txtpassword
             // 
-            this.textBox1.Location = new System.Drawing.Point(145, 82);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtpassword.Location = new System.Drawing.Point(193, 101);
+            this.txtpassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(100, 22);
+            this.txtpassword.TabIndex = 2;
             // 
-            // txtmatkhau
+            // password
             // 
-            this.txtmatkhau.AutoSize = true;
-            this.txtmatkhau.Location = new System.Drawing.Point(85, 85);
-            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(52, 13);
-            this.txtmatkhau.TabIndex = 3;
-            this.txtmatkhau.Text = "Mật khẩu";
+            this.password.AutoSize = true;
+            this.password.Location = new System.Drawing.Point(113, 105);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(66, 16);
+            this.password.TabIndex = 3;
+            this.password.Text = "password";
+            // 
+            // btnlogin
+            // 
+            this.btnlogin.Location = new System.Drawing.Point(193, 155);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.btnlogin.TabIndex = 4;
+            this.btnlogin.Text = "Login";
+            this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.txtmatkhau);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.UserName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -91,8 +100,9 @@
 
         private System.Windows.Forms.Label UserName;
         private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label txtmatkhau;
+        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.Label password;
+        private System.Windows.Forms.Button btnlogin;
     }
 }
 
